@@ -1,0 +1,160 @@
+\documentclass[a4paper, 12pt]{article}
+\usepackage{ctex}
+\usepackage{graphicx}
+\usepackage{float}
+\usepackage{xcolor}
+
+\begin{document}
+  \title{第一周实验报告}
+  \author{张津侨}
+  \date{\today}
+  \maketitle
+  \section{\textcolor{blue!70}{练习内容及结果}}
+  
+  \subsection{git查看配置}
+  \begin{figure}[H]
+  \centering
+  \includegraphics[width=8cm,height=10cm]{1.png}
+  \caption{git config -l}
+  \end{figure}
+
+ \subsection{git设置用户信息}
+  \begin{figure}[H]
+  \centering
+  \includegraphics[width=12cm,height=5cm]{2.png}
+  \caption{git config --global user.name/email}
+  \end{figure}
+
+  \subsection{git为常用指令配置别名}
+  \begin{figure}[H]
+  \centering
+  \includegraphics[width=10cm,height=5cm]{3.png}
+  \caption{touch .bashrc}
+  \includegraphics[width=10cm,height=5cm]{4.png}
+  \end{figure}
+
+  \subsection{git获取本地仓库}
+  \begin{figure}[H]
+  \centering
+  \includegraphics[width=12cm,height=5cm]{5.png}
+  \caption{git init}
+  \end{figure}
+
+  \subsection{git工作区->暂存区->本地仓库}
+  \begin{figure}[H]
+  \centering
+  \includegraphics[width=10cm,height=12cm]{6.png}
+  \caption{git add/commit+文件名/通配符}
+  \end{figure}
+
+  \subsection{git查看修改的状态并查看提交日志}
+  \begin{figure}[H]
+  \centering
+  \includegraphics[width=10cm,height=12cm]{6.png}
+  \caption{git status/log}
+  \end{figure}
+
+  \subsection{git修改文件}
+  \begin{figure}[H]
+  \centering
+  \includegraphics[width=10cm,height=15cm]{7.png}
+  \caption{vi}
+  \end{figure}
+
+  \subsection{git版本回退}
+  \begin{figure}[H]
+  \centering
+  \includegraphics[width=12cm,height=5cm]{8.png}
+  \includegraphics[width=10cm,height=8cm]{9.png}
+  \caption{git reset --hard+commit ID}
+  \end{figure}
+
+  \subsection{git分支}
+  \begin{figure}[H]
+  \centering
+  \includegraphics[width=12cm,height=5cm]{10.png}
+  \caption{git branch}
+  \end{figure}
+
+   \subsection{创建ssh公钥秘钥}
+  \begin{figure}[H]
+  \centering
+  \includegraphics[width=12cm,height=5cm]{11.png}
+  \includegraphics[width=12cm,height=5cm]{12.png}
+  \caption{ssh-keygen,ssh -T git@github.com}
+  \end{figure}
+  
+
+  \subsection{git添加,查看，推送到远程仓库}
+  \begin{figure}[H]
+  \centering
+  \includegraphics[width=12cm,height=5cm]{13.png}
+   \includegraphics[width=12cm,height=5cm]{14.png}
+    \includegraphics[width=12cm,height=2cm]{15.png}
+  \caption{git remote add origin+远程仓库地址,git remote,git push origin master}
+  \end{figure}
+
+  \subsection{Latex创建新文档基本要素}
+  \begin{figure}[H]
+  \centering
+  \includegraphics[width=12cm,height=5cm]{16.png}
+  \end{figure}
+
+  \subsection{Latex添加宏包以编译中文}
+  \begin{figure}[H]
+  \centering
+  \includegraphics[width=12cm,height=5cm]{17.png}
+  \end{figure}
+
+  \subsection{Latex添加标题，作者以及写作时间}
+  \begin{figure}[H]
+  \centering
+  \includegraphics[width=12cm,height=5cm]{18.png}
+  \end{figure}
+
+  \subsection{Latex添加图片，修改图片位置及图片大小}
+  \begin{figure}[H]
+  \centering
+  \includegraphics[width=12cm,height=5cm]{19.png}
+  \end{figure}
+
+  \subsection{Latex数学公式}
+  \begin{figure}[H]
+  \centering
+  \includegraphics[width=12cm,height=2cm]{20.png}
+  \end{figure}
+
+  \subsection{Latex改变字体颜色}
+  \begin{figure}[H]
+  \centering
+  \includegraphics[width=12cm,height=4cm]{21.png}
+  \end{figure}
+
+  \subsection{Latex一些特殊符号的输入}
+  \begin{figure}[H]
+  \centering
+  \includegraphics[width=12cm,height=4cm]{22.png}
+  \end{figure}
+
+  \subsection{Latex随机生成文字并改变文字大小与行间距}
+  \begin{figure}[H]
+  \centering
+  \includegraphics[width=12cm,height=4cm]{23.png}
+  \end{figure}
+
+  \subsection{Latex制作表格}
+  \begin{figure}[H]
+  \centering
+  \includegraphics[width=12cm,height=4cm]{24.png}
+  \end{figure}
+  
+  \section{\textcolor{blue!70}{解题感悟}}
+  夏季学期的第一周，我对于Git与LaTex进行了简单应用，初步了解了这两个工具。\par
+  Git的版本控制功能让我意识到在任何项目中，尤其是代码和文档的管理中，记录每一次修改是多么的重要。这样可以轻松回溯到之前的状态，避免丢失重要数据。创建分支也能使得多功能开发和团队协作变得更加容易。同时，我对于命令行的使用也更加熟练了。\par
+  通过使用LaTeX，我学会了如何将文档排版得更加专业，尤其是科学和数学类的文档。这样的文档在视觉上更具赏析性，且易于阅读。LaTeX的文档结构使得写作过程更加系统化，帮助我更清楚地组织思路，这对于日后撰写学术论文或长篇报告是极其重要的。\par
+  虽然对于这两个工具我只是进行了初步学习，但是我的视野得到了拓展，此后有对于相关工具的使用需要时也能更快地上手操作。\par
+
+  \section{\textcolor{red}{gitbit账号链接：https://github.com/Cecilia-hub}}
+\end{document}
+
+
